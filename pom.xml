@@ -27,4 +27,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <!--引入刚刚的插件依赖-->
+        <groupId>com.dw</groupId>
+        <artifactId>maven-plugin</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <!-- 这里加入的是相关参数，这些参数必须跟插件实现里面的属性保持一致 -->
+        <configuration>
+          <classFile>${project.basedir}/src/main/java/com/test/bean/BaseInfo.java</classFile>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

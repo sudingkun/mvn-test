@@ -9,4 +9,8 @@ import lombok.Data;
 public class BaseInfo {
 
     private String id;
+
+    private String test;
+
+    private String address;
 }
