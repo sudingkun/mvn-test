@@ -14,5 +14,4 @@ public class BaseInfo {
 
     private String address;
 
-    private String testGitCommit;
 }
