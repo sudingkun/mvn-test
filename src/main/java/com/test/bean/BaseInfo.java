@@ -12,5 +12,4 @@ public class BaseInfo {
 
     private String test;
 
-
 }
