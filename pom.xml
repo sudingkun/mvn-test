@@ -12,7 +12,6 @@
     <scm>
         <connection>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</developerConnection>
-        <url>https://github.com/sudingkun/mvn-test</url>
     </scm>
 
     <properties>
