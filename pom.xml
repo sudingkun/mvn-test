@@ -9,10 +9,11 @@
 
     <name>mvn-test</name>
     <url>http://maven.apache.org</url>
-    <scm>
-        <connection>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</developerConnection>
-    </scm>
+    <!--    <scm>-->
+    <!--        <connection>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</connection>-->
+    <!--        <developerConnection>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</developerConnection>-->
+    <!--        <url>https://github.com/sudingkun/mvn-test</url>-->
+    <!--    </scm>-->
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -48,7 +49,9 @@
                 <artifactId>maven-scm-plugin</artifactId>
                 <version>1.13.0</version>
                 <configuration>
-                    <message>Update BaseInfo info</message>
+                    <connectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</connectionUrl>
+                    <developerConnectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</developerConnectionUrl>
+                    <message>test</message>
                 </configuration>
             </plugin>
         </plugins>
