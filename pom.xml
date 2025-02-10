@@ -10,8 +10,8 @@
     <name>mvn-test</name>
     <url>http://maven.apache.org</url>
     <scm>
-        <connection>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</developerConnection>
+        <connection>scm:git:ssh://git@github.com:sudingkun/mvn-test.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:sudingkun/mvn-test.git</developerConnection>
         <url>https://github.com/sudingkun/mvn-test</url>
     </scm>
 
