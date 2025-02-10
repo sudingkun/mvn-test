@@ -50,8 +50,21 @@
                 <version>1.13.0</version>
                 <configuration>
                     <message>Update BaseInfo info</message>
-                    <username>sudingkun</username>
+<!--                    <username>sudingkun</username>-->
+<!--                    <privateKey>~/.ssh/id_rsa</privateKey>-->
                 </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>checkin</goal>
+                        </goals>
+                        <configuration>
+                            <connectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</connectionUrl> <!-- 替换为你的仓库 URL -->
+                            <developerConnectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</developerConnectionUrl> <!-- 替换为你的开发者连接 URL -->
+                            <message>Update BaseInfo info</message>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
