@@ -46,7 +46,30 @@
                 <configuration>
                     <connectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</connectionUrl>
                     <developerConnectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</developerConnectionUrl>
-                    <message>ok</message>
+                    <message>BaseInfo add Field test</message>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <configuration>
+                    <target>
+                        <echo>hello world1</echo>
+
+                        <!-- 执行插件 a -->
+                        <exec executable="mvn">
+                            <arg line="addField:addField"/>
+                        </exec>
+
+                        <exec executable="mvn">
+                            <arg line="compile"/>
+                        </exec>
+
+                        <exec executable="mvn">
+                            <arg line="scm:checkin"/>
+                        </exec>
+                    </target>
                 </configuration>
             </plugin>
         </plugins>

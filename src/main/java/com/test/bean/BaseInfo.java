@@ -12,4 +12,5 @@ public class BaseInfo {
 
     private String test;
 
+    private String testGitCommit;
 }
