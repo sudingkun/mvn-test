@@ -50,6 +50,7 @@
                 <version>1.13.0</version>
                 <configuration>
                     <message>Update BaseInfo info</message>
+                    <username>sudingkun</username>
                 </configuration>
             </plugin>
         </plugins>
