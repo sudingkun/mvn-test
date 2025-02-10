@@ -50,8 +50,6 @@
                 <version>1.13.0</version>
                 <configuration>
                     <message>Update BaseInfo info</message>
-                    <privateKey>/Users/much/.ssh/id_rsa</privateKey>
-                    <knownHosts>/Users/much/.ssh/known_hosts</knownHosts>
                 </configuration>
             </plugin>
         </plugins>
