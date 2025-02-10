@@ -59,8 +59,8 @@
                             <goal>checkin</goal>
                         </goals>
                         <configuration>
-                            <connectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</connectionUrl> <!-- 替换为你的仓库 URL -->
-                            <developerConnectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</developerConnectionUrl> <!-- 替换为你的开发者连接 URL -->
+                            <connectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test2.git</connectionUrl> <!-- 替换为你的仓库 URL -->
+                            <developerConnectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test2.git</developerConnectionUrl> <!-- 替换为你的开发者连接 URL -->
                             <message>Update BaseInfo info</message>
                         </configuration>
                     </execution>
