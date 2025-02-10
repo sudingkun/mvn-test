@@ -12,6 +12,5 @@ public class BaseInfo {
 
     private String test;
 
-    private String address;
 
 }
