@@ -9,11 +9,6 @@
 
     <name>mvn-test</name>
     <url>http://maven.apache.org</url>
-    <!--    <scm>-->
-    <!--        <connection>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</connection>-->
-    <!--        <developerConnection>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</developerConnection>-->
-    <!--        <url>https://github.com/sudingkun/mvn-test</url>-->
-    <!--    </scm>-->
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -51,7 +46,7 @@
                 <configuration>
                     <connectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</connectionUrl>
                     <developerConnectionUrl>scm:git:ssh://git@github.com/sudingkun/mvn-test.git</developerConnectionUrl>
-                    <message>test</message>
+                    <message>ok</message>
                 </configuration>
             </plugin>
         </plugins>
